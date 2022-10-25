@@ -1,11 +1,12 @@
 import React from 'react';
-import * as ReactDOM from 'react-dom/client';
-// import Clock from './chapter04/Clock';
+import ReactDOM from 'react-dom';
+import Clock from './chapter04/Clock';
 import CommentList from './chapter05/CommentList';
 import NotificationList from './chapter06/NotificationList';
 import Accommodate from './chapter07/Accommodate';
 import ConfirmButton from './chapter08/ConfirmButton';
 import LandingPage from './chapter09/LandingPage';
+import AttendanceBook from './chapter10/AttendanceBook';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
@@ -20,8 +21,15 @@ import reportWebVitals from './reportWebVitals';
 //   );
 // }, 1000);
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<LandingPage />);
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<LandingPage />);
+
+   ReactDOM.render(
+     <React.StrictMode>
+       <AttendanceBook />
+     </React.StrictMode>,
+     document.getElementById('root')
+   );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
