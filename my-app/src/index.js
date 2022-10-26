@@ -7,6 +7,8 @@ import Accommodate from './chapter07/Accommodate';
 import ConfirmButton from './chapter08/ConfirmButton';
 import LandingPage from './chapter09/LandingPage';
 import AttendanceBook from './chapter10/AttendanceBook';
+import SignUp from './chapter11/SignUp';
+import SignUp2 from './chapter11/SignUp2';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
@@ -26,7 +28,7 @@ import reportWebVitals from './reportWebVitals';
 
    ReactDOM.render(
      <React.StrictMode>
-       <AttendanceBook />
+       <SignUp2 />
      </React.StrictMode>,
      document.getElementById('root')
    );
