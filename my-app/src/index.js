@@ -13,6 +13,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Calculator from './chapter12/Calculator';
 import ProfileCard from './chapter13/ProfileCard';
+import DarkOrLight from './chapter14/DarkOrLight';
 
 // import Library from './chapter03/Library';
 
@@ -30,7 +31,7 @@ import ProfileCard from './chapter13/ProfileCard';
 
    ReactDOM.render(
      <React.StrictMode>
-       <ProfileCard />
+       <DarkOrLight />
      </React.StrictMode>,
      document.getElementById('root')
    );
