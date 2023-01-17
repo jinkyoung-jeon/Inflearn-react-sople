@@ -12,6 +12,7 @@ import SignUp2 from './chapter11/SignUp2';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Calculator from './chapter12/Calculator';
+import ProfileCard from './chapter13/ProfileCard';
 
 // import Library from './chapter03/Library';
 
@@ -29,7 +30,7 @@ import Calculator from './chapter12/Calculator';
 
    ReactDOM.render(
      <React.StrictMode>
-       <Calculator />
+       <ProfileCard />
      </React.StrictMode>,
      document.getElementById('root')
    );
